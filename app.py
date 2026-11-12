@@ -5,15 +5,16 @@ import os
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlsplit
-from mst.model import load_dataset
-from mst.service import Simulator
+from cases.scenario_loader import load_scenario
+from core.simulation_runner import SimulationRunner
+from config.settings import ROOT, STATIC_DIR, DEFAULT_SCENARIO, DEFAULT_PORT
 
-ROOT = Path(__file__).resolve().parent
+
 
 def build_handler(simulator):
     class Handler(SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
-            super().__init__(*args, directory=str(ROOT / "static"), **kwargs)
+            super().__init__(*args, directory=str(STATIC_DIR), **kwargs)
 
         def send_json(self, value, status=200):
             data = json.dumps(value, ensure_ascii=False, allow_nan=False).encode("utf-8")
@@ -53,15 +54,15 @@ def build_handler(simulator):
     return Handler
 
 
-def create_server(host="127.0.0.1", port=8000):
-    simulator = Simulator(*load_dataset(ROOT / "data"))
+def create_server(host="127.0.0.1", port=DEFAULT_PORT):
+    simulator = SimulationRunner(load_scenario(DEFAULT_SCENARIO))
     return ThreadingHTTPServer((host, port), build_handler(simulator))
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Warehouse MST Simulator")
     parser.add_argument("--host", default="127.0.0.1")
-    parser.add_argument("--port", type=int, default=int(os.getenv("PORT", "8000")))
+    parser.add_argument("--port", type=int, default=int(os.getenv("PORT", str(DEFAULT_PORT))))
     parser.add_argument("--strictPort", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
     server = create_server(args.host, args.port)

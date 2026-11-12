@@ -1,0 +1,15 @@
+{
+  "case_id": "case_26_gudang_terbakar",
+  "title": "Gudang Terbakar (MST)",
+  "nodes_file": "nodes.csv",
+  "edges_file": "edges.csv",
+  "center": "N01",
+  "expected_nodes": 29,
+  "expected_edges": 70,
+  "description": "Rekonstruksi MST pada jaringan komunikasi gudang logistik dua lantai.",
+  "default_failure_sequence": [
+    "E28",
+    "E29",
+    "E38"
+  ]
+}

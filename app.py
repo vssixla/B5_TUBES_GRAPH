@@ -9,8 +9,6 @@ from cases.scenario_loader import load_scenario
 from core.simulation_runner import SimulationRunner
 from config.settings import ROOT, STATIC_DIR, DEFAULT_SCENARIO, DEFAULT_PORT
 
-
-
 def build_handler(simulator):
     class Handler(SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):

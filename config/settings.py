@@ -1,4 +1,4 @@
-# Konfigurasi untuk website, runner CLI, dan benchmark"
+# Konfigurasi untuk website, runner CLI, dan benchmark
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

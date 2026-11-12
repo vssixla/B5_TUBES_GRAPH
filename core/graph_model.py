@@ -1,4 +1,4 @@
-import csv #membaca csv
+import csv #untuk membaca csv
 import math
 from dataclasses import asdict, dataclass
 from pathlib import Path

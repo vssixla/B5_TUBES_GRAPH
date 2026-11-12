@@ -1,30 +1,30 @@
-node_id,device_name,area,floor,function
-N01,Fire Alarm Control Panel,Ruang Panel Alarm,Lantai 1,"Menerima dan mengolah sinyal dari seluruh perangkat deteksi kebakaran, kemudian mengendalikan sistem peringatan kebakaran."
-N02,Smoke Detector,Area Penerimaan (Receiving),Lantai 1,"Mendeteksi keberadaan asap sebagai indikasi awal terjadinya kebakaran pada area penerimaan barang."
-N03,Smoke Detector,Zona Penyimpanan A (Pangan Kering),Lantai 1,"Mendeteksi asap yang muncul akibat potensi kebakaran pada area penyimpanan pangan kering."
-N04,Smoke Detector,Zona Penyimpanan B (Makanan Kemasan),Lantai 1,"Mendeteksi keberadaan asap untuk memberikan peringatan dini terhadap potensi kebakaran."
-N05,Heat Detector,Penyimpanan Minuman,Lantai 1,"Mendeteksi kenaikan suhu yang tidak normal sebagai indikasi potensi kebakaran pada area penyimpanan minuman."
-N06,Heat Detector,Ruang Bahan Kimia,Lantai 1,"Mendeteksi kenaikan suhu secara tidak normal untuk mengidentifikasi potensi kebakaran pada area penyimpanan bahan kimia."
-N07,Temperature Sensor,Cold Storage,Lantai 1,"Memantau suhu ruangan untuk memastikan kondisi penyimpanan tetap sesuai dengan kebutuhan produk."
-N08,Smoke Detector,Area Pengemasan (Packing),Lantai 1,"Mendeteksi asap yang timbul akibat potensi kebakaran selama aktivitas pengemasan barang."
-N09,Smoke Detector,Area Sortir,Lantai 1,"Mendeteksi keberadaan asap sebagai peringatan dini apabila terjadi kebakaran pada area penyortiran barang."
-N10,Smoke Detector,Area Pengiriman (Shipping),Lantai 1,"Mendeteksi keberadaan asap untuk mengidentifikasi potensi kebakaran pada area pengiriman barang."
-N11,Smoke Detector,Loading Dock,Lantai 1,"Mendeteksi asap sebagai indikasi awal kebakaran pada area bongkar muat barang."
-N12,Heat Detector,Ruang Listrik / Mesin,Lantai 1,"Mendeteksi kenaikan suhu berlebih yang dapat mengindikasikan terjadinya overheating atau kebakaran pada instalasi listrik dan mesin."
-N13,Smoke Detector,Ruang Listrik / Mesin,Lantai 1,"Mendeteksi asap yang mungkin timbul akibat gangguan listrik, korsleting, atau kebakaran pada ruang listrik dan mesin."
-N14,Communication Relay,Koridor Lantai 1,Lantai 1,"Meneruskan sinyal komunikasi antara perangkat sistem deteksi kebakaran dengan perangkat atau sistem pengendali lainnya."
-N15,Manual Call Point,Koridor Lantai 1,Lantai 1,"Memungkinkan seseorang mengaktifkan alarm kebakaran secara manual ketika menemukan indikasi kebakaran."
-N16,Smoke Detector,Penyimpanan Obat-obatan,Lantai 2,"Mendeteksi keberadaan asap sebagai indikasi awal kebakaran pada area penyimpanan obat-obatan."
-N17,Temperature-Humidity Sensor,Penyimpanan Obat-obatan,Lantai 2,"Memantau suhu dan kelembapan ruangan untuk menjaga kondisi penyimpanan obat-obatan tetap sesuai standar."
-N18,Smoke Detector,Zona C – Elektronik,Lantai 2,"Mendeteksi keberadaan asap untuk mengidentifikasi potensi kebakaran pada area penyimpanan barang elektronik."
-N19,Smoke Detector,Zona D – Barang Ringan (Pakaian / Tekstil),Lantai 2,"Mendeteksi asap sebagai peringatan dini terhadap potensi kebakaran pada area penyimpanan pakaian dan tekstil."
-N20,Smoke Detector,Ruang Administrasi,Lantai 2,"Mendeteksi keberadaan asap untuk memberikan peringatan dini apabila terjadi kebakaran di ruang administrasi."
-N21,Smoke Detector,Ruang Kontrol dan Jaringan,Lantai 2,"Mendeteksi asap sebagai indikasi awal kebakaran pada area pengelolaan perangkat kontrol dan jaringan."
-N22,Communication Relay,Koridor Lantai 2,Lantai 2,"Meneruskan sinyal komunikasi antara perangkat deteksi kebakaran dan sistem pengendali pada lantai 2."
-N23,Network Gateway,Ruang Kontrol dan Jaringan,Lantai 2,"Menghubungkan perangkat sistem deteksi kebakaran dengan jaringan komunikasi agar pertukaran data dan sinyal dapat berlangsung."
-N24,Backup Communication Unit,Ruang Kontrol dan Jaringan,Lantai 2,"Menyediakan jalur komunikasi cadangan apabila jalur komunikasi utama mengalami gangguan atau kegagalan."
-N25,Alarm Siren & Strobe,Koridor Lantai 2,Lantai 2,"Menghasilkan suara alarm dan kilatan cahaya untuk memperingatkan penghuni ketika terjadi kebakaran."
-N26,Manual Call Point,Koridor Lantai 2,Lantai 2,"Memungkinkan penghuni mengaktifkan alarm kebakaran secara manual ketika menemukan kondisi darurat."
-N27,Smoke Detector,Ruang Panel Alarm,Lantai 1,"Mendeteksi keberadaan asap pada ruang panel alarm untuk memberikan peringatan dini apabila terjadi kebakaran di area tersebut."
-N28,Alarm Siren & Strobe,Koridor Lantai 1,Lantai 1,"Menghasilkan suara alarm dan kilatan cahaya sebagai peringatan kepada seluruh penghuni gudang ketika terjadi kondisi darurat."
-N29,Detektor Api,Cold Storage,Lantai 1,"Mendeteksi keberadaan nyala api secara langsung untuk mengidentifikasi potensi kebakaran pada area cold storage."
+node_id,device_name,area,floor,function,x,y
+N01,Fire Alarm Control Panel,Ruang Panel Alarm,Lantai 1,"Menerima dan mengolah sinyal dari seluruh perangkat deteksi kebakaran, kemudian mengendalikan sistem peringatan kebakaran.",1203,1202
+N02,Smoke Detector,Area Penerimaan (Receiving),Lantai 1,Mendeteksi keberadaan asap sebagai indikasi awal terjadinya kebakaran pada area penerimaan barang.,242,796
+N03,Smoke Detector,Zona Penyimpanan A (Pangan Kering),Lantai 1,Mendeteksi asap yang muncul akibat potensi kebakaran pada area penyimpanan pangan kering.,577,797
+N04,Smoke Detector,Zona Penyimpanan B (Makanan Kemasan),Lantai 1,Mendeteksi keberadaan asap untuk memberikan peringatan dini terhadap potensi kebakaran.,913,797
+N05,Heat Detector,Penyimpanan Minuman,Lantai 1,Mendeteksi kenaikan suhu yang tidak normal sebagai indikasi potensi kebakaran pada area penyimpanan minuman.,1304,797
+N06,Heat Detector,Ruang Bahan Kimia,Lantai 1,Mendeteksi kenaikan suhu secara tidak normal untuk mengidentifikasi potensi kebakaran pada area penyimpanan bahan kimia.,241,1040
+N07,Temperature Sensor,Cold Storage,Lantai 1,Memantau suhu ruangan untuk memastikan kondisi penyimpanan tetap sesuai dengan kebutuhan produk.,543,1040
+N08,Smoke Detector,Area Pengemasan (Packing),Lantai 1,Mendeteksi asap yang timbul akibat potensi kebakaran selama aktivitas pengemasan barang.,1304,1040
+N09,Smoke Detector,Area Sortir,Lantai 1,Mendeteksi keberadaan asap sebagai peringatan dini apabila terjadi kebakaran pada area penyortiran barang.,913,1040
+N10,Smoke Detector,Area Pengiriman (Shipping),Lantai 1,Mendeteksi keberadaan asap untuk mengidentifikasi potensi kebakaran pada area pengiriman barang.,241,1202
+N11,Smoke Detector,Loading Dock,Lantai 1,Mendeteksi asap sebagai indikasi awal kebakaran pada area bongkar muat barang.,577,1202
+N12,Heat Detector,Ruang Listrik / Mesin,Lantai 1,Mendeteksi kenaikan suhu berlebih yang dapat mengindikasikan terjadinya overheating atau kebakaran pada instalasi listrik dan mesin.,845,1202
+N13,Smoke Detector,Ruang Listrik / Mesin,Lantai 1,"Mendeteksi asap yang mungkin timbul akibat gangguan listrik, korsleting, atau kebakaran pada ruang listrik dan mesin.",957,1202
+N14,Communication Relay,Koridor Lantai 1,Lantai 1,Meneruskan sinyal komunikasi antara perangkat sistem deteksi kebakaran dengan perangkat atau sistem pengendali lainnya.,1147,905
+N15,Manual Call Point,Koridor Lantai 1,Lantai 1,Memungkinkan seseorang mengaktifkan alarm kebakaran secara manual ketika menemukan indikasi kebakaran.,283,905
+N16,Smoke Detector,Penyimpanan Obat-obatan,Lantai 2,Mendeteksi keberadaan asap sebagai indikasi awal kebakaran pada area penyimpanan obat-obatan.,219,301
+N17,Temperature-Humidity Sensor,Penyimpanan Obat-obatan,Lantai 2,Memantau suhu dan kelembapan ruangan untuk menjaga kondisi penyimpanan obat-obatan tetap sesuai standar.,343,301
+N18,Smoke Detector,Zona C – Elektronik,Lantai 2,Mendeteksi keberadaan asap untuk mengidentifikasi potensi kebakaran pada area penyimpanan barang elektronik.,700,301
+N19,Smoke Detector,Zona D – Barang Ringan (Pakaian / Tekstil),Lantai 2,Mendeteksi asap sebagai peringatan dini terhadap potensi kebakaran pada area penyimpanan pakaian dan tekstil.,1159,301
+N20,Smoke Detector,Ruang Administrasi,Lantai 2,Mendeteksi keberadaan asap untuk memberikan peringatan dini apabila terjadi kebakaran di ruang administrasi.,286,569
+N21,Smoke Detector,Ruang Kontrol dan Jaringan,Lantai 2,Mendeteksi asap sebagai indikasi awal kebakaran pada area pengelolaan perangkat kontrol dan jaringan.,622,568
+N22,Communication Relay,Koridor Lantai 2,Lantai 2,Meneruskan sinyal komunikasi antara perangkat deteksi kebakaran dan sistem pengendali pada lantai 2.,1052,427
+N23,Network Gateway,Ruang Kontrol dan Jaringan,Lantai 2,Menghubungkan perangkat sistem deteksi kebakaran dengan jaringan komunikasi agar pertukaran data dan sinyal dapat berlangsung.,946,569
+N24,Backup Communication Unit,Ruang Kontrol dan Jaringan,Lantai 2,Menyediakan jalur komunikasi cadangan apabila jalur komunikasi utama mengalami gangguan atau kegagalan.,1259,569
+N25,Alarm Siren & Strobe,Koridor Lantai 2,Lantai 2,Menghasilkan suara alarm dan kilatan cahaya untuk memperingatkan penghuni ketika terjadi kebakaran.,599,427
+N26,Manual Call Point,Koridor Lantai 2,Lantai 2,Memungkinkan penghuni mengaktifkan alarm kebakaran secara manual ketika menemukan kondisi darurat.,208,427
+N27,Smoke Detector,Ruang Panel Alarm,Lantai 1,Mendeteksi keberadaan asap pada ruang panel alarm untuk memberikan peringatan dini apabila terjadi kebakaran di area tersebut.,1382,1202
+N28,Alarm Siren & Strobe,Koridor Lantai 1,Lantai 1,Menghasilkan suara alarm dan kilatan cahaya sebagai peringatan kepada seluruh penghuni gudang ketika terjadi kondisi darurat.,705,907
+N29,Detektor Api,Cold Storage,Lantai 1,Mendeteksi keberadaan nyala api secara langsung untuk mengidentifikasi potensi kebakaran pada area cold storage.,644,1040
